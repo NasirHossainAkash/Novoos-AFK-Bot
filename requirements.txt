@@ -1,0 +1,11 @@
+async-timeout==4.0.2
+Deprecated==1.2.13
+packaging==21.3
+pyaes==1.6.1
+pyparsing==3.0.8
+Pyrogram==2.0.19
+PySocks==1.7.1
+python-dotenv==0.20.0
+redis==4.3.1
+TgCrypto==1.2.3
+wrapt==1.14.1
