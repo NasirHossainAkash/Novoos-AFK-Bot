@@ -8,8 +8,9 @@ ADD requirements.txt /tmp/requirements.txt
 
 RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
-WORKDIR /tmp
 
-COPY . .
+COPY . /tmp/
+
+WORKDIR /tmp
 			
 CMD ["python3","main.py"]
