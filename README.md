@@ -1,6 +1,6 @@
 ## Novoos AFK Bot [for user account]
 
-- Description will add later
+- Description will be added later
 
 
 
