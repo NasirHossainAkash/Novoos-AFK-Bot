@@ -21,7 +21,7 @@ load_dotenv('config.env')
 
 
 
-API_ID = getenv("API_ID")
+API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 SESSION = getenv("SESSION")
 REDIS_URI = getenv("REDIS_URI")
