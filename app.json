@@ -1,5 +1,5 @@
 {
-    "stack": "heroku-20",
+    "stack": "container",
     "name": "Novoos AFK Bot",
     "description": "Let Everyone Know You are AFK",
     "keywords": [
