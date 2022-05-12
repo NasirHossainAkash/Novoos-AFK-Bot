@@ -3,7 +3,7 @@
 # Python 3.10.4
 
 
-
+import datetime
 import redis
 from os import getenv
 from pyrogram import Client, filters
@@ -55,7 +55,6 @@ def set_reason(reason):
 async def set_afk(client, message):
     reason = message.text.replace('.afk', """""").strip()
     r.set(name="AFK",value="True")
-    time_now = datetime.datetime.now()
     set_reason(reason=reason)
     await message.edit(f"__Going AFK__\n__Reason: {reason}__\n\n__Made with ❤️ by__\n**__@NovoosEcosystem__**")
     await asyncio.sleep(2)
